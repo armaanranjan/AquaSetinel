@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
             Ocean Monitoring v2.0
           </span>
           <h1 className="mb-6 text-5xl font-bold tracking-tight md:text-7xl">
-            AI-Powered Marine Plastic <br />
+            ML-Powered Marine Plastic <br />
             <span className="text-transparent bg-clip-text bg-linear-to-r from-teal-400 to-cyan-400">
               Detection & Drift Analysis
             </span>
@@ -67,13 +67,7 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
               View Live Detection
               <Activity className="w-4 h-4" />
             </button>
-            <button 
-              onClick={() => onCtaClick('research')}
-              className="px-8 py-4 font-semibold transition-all border rounded-lg bg-white/5 border-white/20 hover:bg-white/10 hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
-            >
-              Explore Research
-              <ArrowUpRight className="w-4 h-4" />
-            </button>
+            
           </div>
         </motion.div>
 

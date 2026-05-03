@@ -12,8 +12,6 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection, setActive
     { id: 'landing', label: 'Home', icon: Waves },
     { id: 'detection', label: 'Detection', icon: Search },
     { id: 'drift', label: 'Drift Analysis', icon: BarChart3 },
-    { id: 'research', label: 'Research', icon: Book },
-    { id: 'about', label: 'About', icon: User },
   ];
 
   return (
@@ -23,7 +21,7 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection, setActive
           <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
             <LayoutDashboard className="w-5 h-5 text-slate-950" />
           </div>
-          <span className="font-bold text-white tracking-tight hidden sm:block">MARPLAST</span>
+          <span className="font-bold text-white tracking-tight hidden sm:block">AQUASENTINEL</span>
         </div>
         
         {navItems.map((item) => (
